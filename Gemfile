@@ -28,7 +28,9 @@ gem 'awesome_print'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 # 中略
-gem "net-smtp"
+gem 'net-imap'
+gem 'net-pop'
+gem 'net-smtp'
 gem "whenever"
 gem 'mysql2', '~> 0.5'
 group :development, :test do
