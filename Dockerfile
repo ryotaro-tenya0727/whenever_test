@@ -1,4 +1,4 @@
-FROM ruby:2.7.4
+FROM ruby:3.1.0
 RUN apt-get update
 RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash - && apt-get install -y nodejs
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
